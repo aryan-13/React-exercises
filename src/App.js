@@ -10,7 +10,7 @@ export default function App() {
   };
   return (
     <div className="App">
-      <h1 style={{ color: "navy" }}>Hello CodeSandbox</h1>
+      <h1 style={{ color: "navy" }}>Alphanumeric Password Checker</h1>
       <input onChange={inputHandler} />
       {pass.match(/^(?=.*[a-zA-Z])(?=.*[0-9])[A-Za-z0-9]+$/) ? (
         <h4 style={{ color: "green" }}>Alphanumeric</h4>
